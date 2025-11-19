@@ -14,12 +14,12 @@ export default function Hours() {
                     <div className="flex flex-col gap-5">
                         <h1 className="text-2xl font-extrabold">Bemannet Resepsjon</h1>
                         <div className="flex justify-between">
-                            <p className="text-xl text-neutral-400">Mandag - Fredag:</p>
-                            <p className="font-extrabold text-xl">06:00 - 22:00</p>
+                            <p className="text-sm md:text-xl text-neutral-400">Mandag - Fredag:</p>
+                            <p className="font-extrabold text-sm md:text-xl">06:00 - 22:00</p>
                         </div>
                         <div className="flex justify-between">
-                            <p className="text-xl text-neutral-400">Lørdag - Søndag:</p>
-                            <p className="font-extrabold text-xl">08:00 - 20:00</p>
+                            <p className="text-sm md:text-xl text-neutral-400">Lørdag - Søndag:</p>
+                            <p className="font-extrabold text-sm md:text-xl">08:00 - 20:00</p>
                         </div>
                     </div>
                 </div>
