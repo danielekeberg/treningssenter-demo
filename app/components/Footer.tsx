@@ -7,8 +7,8 @@ export default function Footer() {
         <div className="px-[15%] py-20 bg-[#262626]">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-20 border-b border-neutral-400/20 pb-10 mb-10">
                 <div className="flex flex-col gap-5">
-                    <h1 className="text-3xl font-extrabold text-red-500">OPTIMAL</h1>
-                    <p className="text-neutral-400">Hadelands største treningssenter. Vi hjelper deg å nå dine mål</p>
+                    <h1 className="text-3xl font-extrabold text-red-500">NAVN</h1>
+                    <p className="text-neutral-400">Nordens største treningssenter. Vi hjelper deg å nå dine mål</p>
                 </div>
                 <div className="flex flex-col gap-5">
                     <h1 className="text-2xl font-bold">Kontakt</h1>
@@ -21,10 +21,10 @@ export default function Footer() {
                 <div className="flex flex-col gap-5">
                     <h1 className="text-2xl font-bold">Følg Oss</h1>
                     <div className="flex gap-2">
-                        <Link href="https://www.instagram.com/optimaltreningssenter/" className="flex items-center justify-center bg-red-500/10 p-4 h-15 w-15 rounded-full" target="_blank">
+                        <Link href="" className="flex items-center justify-center bg-red-500/10 p-4 h-15 w-15 rounded-full" target="_blank">
                             <img src="/instagram.svg" />
                         </Link>
-                        <Link href="https://www.facebook.com/optimaltreningssenter" className="flex items-center justify-center bg-red-500/10 p-4 h-15 w-15 rounded-full" target="_blank">
+                        <Link href="" className="flex items-center justify-center bg-red-500/10 p-4 h-15 w-15 rounded-full" target="_blank">
                             <img src="/fb.svg" />
                         </Link>
                     </div>

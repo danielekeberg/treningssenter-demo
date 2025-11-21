@@ -18,8 +18,8 @@ export default function Hero() {
                 </div>
                 <div className="flex absolute -inset-0 flex-col h-screen justify-center items-center">
                     <div className="text-center mb-8">
-                        <h1 className="text-3xl md:text-8xl text-red-500 font-extrabold">OPTIMAL</h1>
                         <h1 className="text-3xl md:text-8xl text-red-500 font-extrabold">TRENINGSSENTER</h1>
+                        <h1 className="text-3xl md:text-8xl text-red-500 font-extrabold">DEMO</h1>
                     </div>
                     <p className="text-2xl text-white">Din destinasjon for styrke og vekst</p>
                     <button onClick={scrollToMedlem} className="bg-red-500 py-2 px-5 text-2xl font-bold mt-8 cursor-pointer hover:bg-red-500/50">BLI MEDLEM NÅ</button>
